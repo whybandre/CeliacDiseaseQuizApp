@@ -1,0 +1,130 @@
+<resources>
+    <!-- Name for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Quiz Celiac Disease App</string>
+
+    <!-- Title for the application. -->
+    <string name="title_question">How Much Do You Know\nAbout Celiac Disease?</string>
+
+
+
+    <!-- Introduction text. -->
+    <string name="intro_app">Celiac disease is a digestive disease that can affect children and adults alike. Also known as celiac sprue, this disease is the most common genetic disease in Europe and is considered significantly underdiagnosed in the U.S. Learn more about the disease by taking this quiz.</string>
+
+
+
+    <!-- Question 1 -->
+    <string name="question1">1. People with celiac disease cannot eat which kind of food?</string>
+    <!-- Question 1 Answers-->
+    <string name="question1_answerA">A. Fruits, especially strawberries</string>
+    <string name="question1_answerB">B. Dairy products, especially milk</string>
+    <string name="question1_answerC">C. Peanuts and nut</string>
+    <string name="question1_answerD">D. Grains, especially wheat, rye, and barley</string>
+
+    <!-- Question 2 -->
+    <string name="question2">2. What circumstance may trigger celiac disease?</string>
+    <!-- Question 2 Answers-->
+    <string name="question2_answerA">A. Surgery</string>
+    <string name="question2_answerB">B. Pregnancy</string>
+    <string name="question2_answerC">C. Viral infection</string>
+    <string name="question2_answerD">D. Emotional stress</string>
+
+    <!-- Question 3 -->
+    <string name="question3">3. People with celiac disease often have which other disease?</string>
+    <!-- Question 3 Answers-->
+    <string name="question3_answerA">A. Autoimmune thyroid disease</string>
+    <string name="question3_answerB">B. Type 1 diabetes</string>
+    <string name="question3_answerC">C. Lupus</string>
+    <string name="question3_answerD">D. Rheumatoid arthritis</string>
+
+    <!-- Question 4 -->
+    <string name="question4">4. Which of these is a symptom of celiac disease?</string>
+    <!-- Question 4 Answers-->
+    <string name="question4_answerA">A. Weight lossy</string>
+    <string name="question4_answerB">B. Excessive gas</string>
+    <string name="question4_answerC">C. Joint pain</string>
+    <string name="question4_answerD">D. Diarrhea</string>
+
+    <!-- Question 5-->
+    <string name="question5">5. How is celiac disease diagnosed?</string>
+    <!-- Question 5 Answers-->
+    <string name="question5_answerA">A. A blood test that measures antibodies</string>
+    <string name="question5_answerB">B. A bone scan</string>
+    <string name="question5_answerC">C. A biopsy of the small intestine</string>
+    <string name="question5_answerD">D. An MRI</string>
+
+    <!-- Question 6-->
+    <string name="question6">6. How is celiac disease treated?</string>
+    <!-- Question 6 Answers-->
+    <string name="question6_answerA">A. Antibiotics</string>
+    <string name="question6_answerB">B. Surgery</string>
+    <string name="question6_answerC">C. A change in diet</string>
+    <string name="question6_answerD">D. Radiation therapy"</string>
+
+    <!-- Question 7-->
+    <string name="question7">7. A person with celiac disease can still eat:</string>
+    <!-- Question 7 Answers-->
+    <string name="question7_answerA">A. Rice</string>
+    <string name="question7_answerB">B. Potatoes</string>
+    <string name="question7_answerC">C. Dried beans</string>
+    <string name="question7_answerD">D. Soy beans"</string>
+
+    <!-- Question 8-->
+    <string name="question8">8. Which of these can be a complication of celiac disease?</string>
+    <!-- Question 7 Answers-->
+    <string name="question8_answerA">A. Lymphoma</string>
+    <string name="question8_answerB">B. Osteoporosis</string>
+    <string name="question8_answerC">C. Miscarriage</string>
+    <string name="question8_answerD">D. Seizures"</string>
+
+
+
+    <!-- Button for each question ask for help and toast-->
+    <string name="button_help">Help</string>
+
+
+
+
+
+    <!-- Button to get the Result-->
+    <string name="get_result">See Result</string>
+
+    <!-- Button to get Try Again and Reset answered questions-->
+    <string name="try_again">Try Again</string>
+
+    <!-- Text Call to Action for Email-->
+    <string name="call_email">Do you want to know more?\nTell us your email and we will send you more information!</string>
+
+    <!-- Email edit text area-->
+    <string name="insert_email">Insert your Email</string>
+
+    <!-- Button for Send Email-->
+    <string name="send_email">Send</string>
+
+
+    <!-- Java Text Area -->
+    <!-- Result Message -->
+    <!-- Answer correctly the most -->
+    <string name="good_job">\nGood Job!\n\nYou are on a good path!\n</string>
+
+    <!-- Poor knowledge of Celiac disease correctly the most -->
+    <string name="bad_job">\nIt is very important to know about this common disease.\n\nLeave us your email and we send you more information!\n</string>
+
+
+
+
+
+    <string name="help_1">When a person with celiac disease eats any of these grains, a protein called gluten found in them causes a reaction in his or her immune system. The immune system damages the tiny, fingerlike projections, called villi, that line the small intestine.</string>
+    <string name="help_2">"Celiac is likely caused by both genetic factors (meaning it runs in families) and a trigger, which is gluten. The disease can develop in children and in adults, although it's unclear who will develop it when.</string>
+    <string name="help_3">All of the diseases listed are autoimmune diseases, as is celiac disease. Other autoimmune diseases that may occur along with celiac disease include dermatitis herpetiformis, collagen vascular disease, and Sjogren\'s syndrome.</string>
+    <string name="help_4">Symptoms of celiac disease include weight loss, diarrhea, excessive gas, behavior changes, delayed growth and failure to thrive (in child), seizures and infertility. Symptoms differ from person to person; some have only abdominal symptoms, others have no symptoms.</string>
+    <string name="help_5">A person with celiac disease has higher than normal levels of certain antibodies. These antibodies can be measured with a blood test. If symptoms and the blood test suggest celiac disease, the doctor may then order a biopsy of the small intestine.</string>
+    <string name="help_6">A person with celiac disease must avoid any foods that contain gluten. For most people, a gluten-free diet will stop symptoms, heal intestinal damage, and prevent further damage. The healing process can take from 6 months (children) to 2 years (adults).</string>
+    <string name="help_7">These foods do not contain wheat gluten and so are safe to eat. In addition, flours made from these foods and corn grains are available for baking and cooking. Commercial food products may contain gluten in the form of additives, preservatives and stabilizers.</string>
+    <string name="help_8">Lymphoma can develop in the small intestine of a person with celiac disease.\nBecause it may be difficult for a person with celiac disease to absorb enough calcium, osteoporosis may develop.\nAs for other nutrients, a woman who is pregnant may be at risk for miscarriage.\nSeizures may be caused by poor absorption of folate.</string>
+
+
+
+    <string name="text_email">There\'s a lot of information on the web but most important advice we can give you is to get yours from a doctor!\nThis quizz is part of one more complete from University of Rochester. </string>
+
+
+</resources>
