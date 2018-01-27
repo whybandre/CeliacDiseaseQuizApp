@@ -833,6 +833,47 @@
         </LinearLayout>
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/card_question_margin"
+            android:background="@drawable/background_with_shadow"
+            android:elevation="@dimen/card_elevation"
+            android:orientation="vertical"
+            android:padding="@dimen/question_padding">
+
+            <TextView
+                android:id="@+id/text_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/card_margin_text"
+                android:contentDescription="@string/text_share"
+                android:gravity="center"
+                android:text="@string/text_share"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextQuestion"
+                android:textSize="@dimen/title_question_text_size"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/button_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:layout_marginLeft="@dimen/button_margin_left"
+                android:layout_marginRight="@dimen/button_margin_right"
+                android:contentDescription="@string/bt_share"
+                android:onClick="shareIntent"
+                android:text="@string/bt_share"
+                android:theme="@style/QuizzButton" />
+
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
 

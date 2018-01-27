@@ -126,5 +126,13 @@
 
     <string name="text_email">There\'s a lot of information on the web but most important advice we can give you is to get yours from a doctor!\nThis quizz is part of one more complete from University of Rochester. </string>
 
+    <string name="text_share">Help your friends by sharing this quiz</string>
+
+    <string name="bt_share">Share quizz</string>
+
+    <string name="text_share_send">How much do you know about Celiac Disease? Do this quiz and get to know more!</string>
+
+    <string name="for_share">Share via</string>
+
 
 </resources>
