@@ -206,7 +206,8 @@
                 android:layout_marginRight="@dimen/button_margin_right"
                 android:contentDescription="@string/button_help"
                 android:onClick="showHelpQ2"
-                android:text="@string/button_help" />
+                android:text="@string/button_help"
+                android:theme="@style/helpButton"/>
 
         </LinearLayout>
 
@@ -289,7 +290,8 @@
                 android:layout_marginRight="@dimen/button_margin_right"
                 android:contentDescription="@string/button_help"
                 android:onClick="showHelpQ3"
-                android:text="@string/button_help" />
+                android:text="@string/button_help"
+                android:theme="@style/helpButton"/>
 
         </LinearLayout>
 
@@ -371,7 +373,8 @@
                 android:layout_marginRight="@dimen/button_margin_right"
                 android:contentDescription="@string/button_help"
                 android:onClick="showHelpQ4"
-                android:text="@string/button_help" />
+                android:text="@string/button_help"
+                android:theme="@style/helpButton"/>
 
         </LinearLayout>
 
@@ -452,7 +455,8 @@
                 android:layout_marginRight="@dimen/button_margin_right"
                 android:contentDescription="@string/button_help"
                 android:onClick="showHelpQ5"
-                android:text="@string/button_help" />
+                android:text="@string/button_help"
+                android:theme="@style/helpButton"/>
 
         </LinearLayout>
 
@@ -544,7 +548,8 @@
                 android:layout_marginRight="@dimen/button_margin_right"
                 android:contentDescription="@string/button_help"
                 android:onClick="showHelpQ6"
-                android:text="@string/button_help" />
+                android:text="@string/button_help"
+                android:theme="@style/helpButton"/>
 
         </LinearLayout>
 
@@ -624,7 +629,8 @@
                 android:layout_marginRight="@dimen/button_margin_right"
                 android:contentDescription="@string/button_help"
                 android:onClick="showHelpQ7"
-                android:text="@string/button_help" />
+                android:text="@string/button_help"
+                android:theme="@style/helpButton"/>
 
         </LinearLayout>
 
@@ -705,7 +711,8 @@
                 android:layout_marginRight="@dimen/button_margin_right"
                 android:contentDescription="@string/button_help"
                 android:onClick="showHelpQ8"
-                android:text="@string/button_help" />
+                android:text="@string/button_help"
+                android:theme="@style/helpButton"/>
 
         </LinearLayout>
 
