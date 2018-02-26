@@ -107,7 +107,7 @@
     <string name="good_job">\nGood Job!\n\nYou are on a good path!\n</string>
 
     <!-- Poor knowledge of Celiac disease correctly the most -->
-    <string name="bad_job">\nIt is very important to know about this common disease.\n\nLeave us your email and we send you more information!\n</string>
+    <string name="bad_job">\nIt is very important to know about this common disease.\n\nLeave us your email and we will send you more information!\n</string>
 
 
 
@@ -123,8 +123,7 @@
     <string name="help_8">Lymphoma can develop in the small intestine of a person with celiac disease.\nBecause it may be difficult for a person with celiac disease to absorb enough calcium, osteoporosis may develop.\nAs for other nutrients, a woman who is pregnant may be at risk for miscarriage.\nSeizures may be caused by poor absorption of folate.</string>
 
 
-
-    <string name="text_email">There\'s a lot of information on the web but most important advice we can give you is to get yours from a doctor!\nThis quizz is part of one more complete from University of Rochester. </string>
+    <string name="text_email">There\'s a lot of information on the web but most important advice we can give you is to get yours from a doctor!\nThis quiz is part of one more complete from University of Rochester.</string>
 
     <string name="text_share">Help your friends by sharing this quiz</string>
 

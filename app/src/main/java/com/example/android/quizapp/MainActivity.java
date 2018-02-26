@@ -224,7 +224,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
     /**
      * This method displays the final result of the quizz with a background image (box type).
      */
@@ -236,8 +235,6 @@ public class MainActivity extends AppCompatActivity {
         TextView backgroundResult = (TextView) findViewById(R.id.display_result);
         backgroundResult.setBackgroundResource(R.drawable.rounded_corner);
     }
-
-
 
 
     /**
@@ -288,7 +285,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     /**
      * This method is called to send Email to user with more information
      */
@@ -303,7 +299,7 @@ public class MainActivity extends AppCompatActivity {
     //Send email if there's an email
 
     Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.setData(Uri.parse("mailto:" + emailUser)); // only email apps should handle this
 
         intent.putExtra(Intent.EXTRA_EMAIL, emailUser); // send to the user email
 
@@ -317,6 +313,7 @@ public class MainActivity extends AppCompatActivity {
     }
     }
 
+    //An intent for sharing with everyone by any app
 
     public void shareIntent(View view) {
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
@@ -369,8 +366,6 @@ public class MainActivity extends AppCompatActivity {
             numberCorrectAnswers = 0;
 
 
-
-
             /** After it will Scroll to top of the app to Start Over
              *
              */
@@ -379,11 +374,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
-
-
-
-
-
 
     }
 
