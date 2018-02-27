@@ -134,4 +134,8 @@
     <string name="for_share">Share via</string>
 
 
+    <string name="message_before_result">"\nYou answered correctly to "</string>
+    <string name="message_after_result">" out of 8 questions!\n"</string>
+
+
 </resources>

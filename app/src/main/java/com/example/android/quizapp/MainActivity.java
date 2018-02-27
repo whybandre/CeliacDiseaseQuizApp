@@ -207,16 +207,22 @@ public class MainActivity extends AppCompatActivity {
      */
     public void showResult(View view) {
 
-        String resultMessage = "\nYou answered correctly to " + calculateCorrectAnswers() + " out of 8 questions!\n";
+        String resultMessage = getString(R.string.message_before_result) + calculateCorrectAnswers() + getString(R.string.message_after_result);
 
         //if user got more then 5 answers correct gets this answer
         if (numberCorrectAnswers > 5){
 
             resultMessage += getString(R.string.good_job);
 
+            Toast.makeText(this, getString(R.string.message_before_result) + calculateCorrectAnswers() + getString(R.string.message_after_result), Toast.LENGTH_LONG).show();
+
+
+
         //if not get this one
         } else {
             resultMessage += getString(R.string.bad_job);
+
+            Toast.makeText(this, getString(R.string.message_before_result) + calculateCorrectAnswers() + getString(R.string.message_after_result), Toast.LENGTH_LONG).show();
         }
 
         displayResult(resultMessage);
