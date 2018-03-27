@@ -35,3 +35,15 @@ Here you can find the [original quiz](https://www.urmc.rochester.edu/encyclopedi
 
 </body>
 </html>
+<h2>Installation</h2>
+
+1. Click the `download zip`
+2. Extract the `zip file`
+3. Open Android Studio
+4. Import the project you just downloaded
+5. Sync gradle and Run the project
+
+There's also the possibility to use <a href="https://github.com/cesarferreira/dryrun" target="_blank">`dryrun`</a> made by <a href="https://github.com/cesarferreira" target="_blank">@CesarFerreira</a>
+
+## Copyright
+This project is licensed under the terms of the MIT license.
